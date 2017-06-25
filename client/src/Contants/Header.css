@@ -1,0 +1,68 @@
+#header {
+    background-color: rgba(0, 0, 0, 0);
+    left: 0;
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    cursor: default;
+    font-size: 1.1em;
+    height: 6em;
+    line-height: 6em;
+    width: 100%;
+    z-index: 10000;
+}
+
+#header h1 {
+    color: #ffffff;
+    height: inherit;
+    left: 3em;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#header h1 > a {
+    font-size: 0.9em;
+    color: inherit;
+    text-decoration: none;
+}
+
+#header nav {
+    height: inherit;
+    line-height: inherit;
+    position: absolute;
+    right: 3em;
+    vertical-align: middle;
+}
+
+#header nav > ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#header nav > ul > li {
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 2em;
+    padding-left: 0;
+}
+#header nav > ul > li > a {
+    transition: color 0.2s ease-in-out;
+    color: #cdced0;
+    display: inline-block;
+    text-decoration: none;
+}
+#header nav > ul > li .btnLogin {
+    border-radius: 30px;
+    background-color: #fff;
+    color: #444 !important;
+    height: 2.25em;
+    line-height: 2.25em;
+    margin-bottom: 0;
+    padding: 0 1em;
+    position: relative;
+    top: -0.075em;
+    vertical-align: middle;
+}

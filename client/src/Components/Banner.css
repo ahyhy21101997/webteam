@@ -1,0 +1,67 @@
+#banner {
+    background-image: url(../static/images/dark_tint.png), url(../static/images/bokeh_car_lights_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 14em 0em 14em;
+    text-align: center;
+}
+
+#banner > h2 {
+    color: #ffffff;
+    font-size: 4em;
+    line-height: 1.25em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#banner > p {
+    font-size: 1.5em;
+    margin-bottom: 1.75em;
+    margin: 0 0 2em 0;
+}
+
+#banner > ul {
+
+}
+
+#banner > ul > li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+    vertical-align: middle;
+}
+
+#banner > ul > li > a {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #3cadd4;
+    border-radius: 30px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 4em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.btn {
+     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #3cadd4;
+    border-radius: 30px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 4em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
